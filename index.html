@@ -4,9 +4,161 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Serif&display=swap" rel="stylesheet">
+
     <title>Flower Shop</title>
 </head>
-<body>
+<body class="bg-white">
+
+  <!-- Navbar -->
+  <nav class="bg-white py-4 px-4">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      
+      <!-- Logo -->
+      <div class="flex items-center">
+        <img src="assets/logo.png" alt="Logo" class="w-auto" />
+      </div>
+
+      <div class="flex items-center space-x-4">
+        <!-- Menu Links  -->
+      <div class="hidden md:flex space-x-6 items-center">
+        <a href="#" class=" text-gray-700 hover:text-orange-500 font-bold text-[16px]">Home</a>
+        <a href="#" class=" hover:text-orange-500 font-normal text-[16px] text-[#8987A1]">Shop</a>
+        <a href="#" class=" hover:text-orange-500 font-normal text-[16px] text-[#8987A1]">About Us</a>
+      </div>
+
+      <!-- Cart -->
+      <div class="flex items-center space-x-2">
+        <!-- Cart icon -->
+        <img src="assets/shopping-cart.png" alt="Cart" class="h-6 w-6" />
+        <span class="text-gray-800 font-medium">Cart ($56)</span>
+      </div>
+
+
+      </div>
+
+    </div>
+  </nav>
+
+ <!-- Hero Section -->
+<section class="max-w-7xl mx-auto px-4 py-12">
+  <div class="grid md:grid-cols-2 gap-8 items-center">
+
+    <!-- Image-->
+    <div class="order-1 md:order-2">
+      <img src="assets/hero-flower.png" alt="Flower" class="w-full rounded-lg" />
+    </div>
+
+    <!-- Text Content -->
+    <div class="order-2 md:order-1">
+      <h1 class="text-3xl md:text-5xl font-bold text-black">
+        BLOSSOM   <span class="text-orange-500">WITH US</span>
+      </h1>
+      <p class="mt-4 text-gray-600 text-base">
+        Flowers speak the language of love, comfort, and celebration. We handpick each bloom to turn ordinary moments into unforgettable memories. Whether it's a simple gesture or a grand occasion, our flowers help you express what words often cannot.
+      </p>
+    </div>
+
+  </div>
+</section>
+<!-- Our Plants section -->
+  <section class="max-w-7xl mx-auto px-4 py-12">
     
+    <!-- Heading -->
+    <div class="text-center mb-10">
+      <h2 class="md:text-5xl text-4xl font-bold">
+        <span class="text-orange-500">Our</span> Plants
+      </h2>
+      <p class="text-sm text-gray-600 mt-2 max-w-xl mx-auto">
+        Our plants bring nature’s calm right into your home or workspace. Handpicked for quality and style, each plant is nurtured with care to thrive in your space. Whether you’re a seasoned plant lover or just getting started, we offer greenery that’s easy to care for and hard not to love.
+      </p>
+    </div>
+
+    <!-- Product Grid Container -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+      
+      <!-- 8 Product Cards -->
+      <!-- Card Template -->
+      
+      <div class="bg-white rounded-lg overflow-hidden shadow text-center p-4">
+        <img src="assets/sample-flower-image.png" alt="Flower" class="w-full h-auto mb-4" />
+        <h3 class="text-md font-medium text-gray-800">Lily Blossom</h3>
+        <p class="text-sm font-extrabold text-gray-700 mb-3">20 USD</p>
+        <button class="bg-orange-500 text-white px-4 py-1 text-sm rounded hover:bg-orange-600 w-full cursor-pointer font-normal">
+          ADD TO CART
+        </button>
+      </div>
+
+      <!-- 7 cards  -->
+        <div class="bg-white rounded-lg overflow-hidden shadow text-center p-4">
+        <img src="assets/sample-flower-image.png" alt="Flower" class="w-full h-auto mb-4" />
+        <h3 class="text-md font-medium text-gray-800">Lily Blossom</h3>
+        <p class="text-sm font-extrabold text-gray-700 mb-3">20 USD</p>
+        <button class="bg-orange-500 text-white px-4 py-1 text-sm rounded hover:bg-orange-600 w-full cursor-pointer font-normal">
+          ADD TO CART
+        </button>
+      </div>
+
+        <div class="bg-white rounded-lg overflow-hidden shadow text-center p-4">
+        <img src="assets/sample-flower-image.png" alt="Flower" class="w-full h-auto mb-4" />
+        <h3 class="text-md font-medium text-gray-800">Lily Blossom</h3>
+        <p class="text-sm font-extrabold text-gray-700 mb-3">20 USD</p>
+        <button class="bg-orange-500 text-white px-4 py-1 text-sm rounded hover:bg-orange-600 w-full cursor-pointer font-normal">
+          ADD TO CART
+        </button>
+      </div>
+
+      <div class="bg-white rounded-lg overflow-hidden shadow text-center p-4">
+        <img src="assets/sample-flower-image.png" alt="Flower" class="w-full h-auto mb-4" />
+        <h3 class="text-md font-medium text-gray-800">Lily Blossom</h3>
+        <p class="text-sm font-extrabold text-gray-700 mb-3">20 USD</p>
+        <button class="bg-orange-500 text-white px-4 py-1 text-sm rounded hover:bg-orange-600 w-full cursor-pointer font-normal">
+          ADD TO CART
+        </button>
+      </div>
+
+      <div class="bg-white rounded-lg overflow-hidden shadow text-center p-4">
+        <img src="assets/sample-flower-image.png" alt="Flower" class="w-full h-auto mb-4" />
+        <h3 class="text-md font-medium text-gray-800">Lily Blossom</h3>
+        <p class="text-sm font-extrabold text-gray-700 mb-3">20 USD</p>
+        <button class="bg-orange-500 text-white px-4 py-1 text-sm rounded hover:bg-orange-600 w-full cursor-pointer font-normal">
+          ADD TO CART
+        </button>
+      </div>
+
+       <div class="bg-white rounded-lg overflow-hidden shadow text-center p-4">
+        <img src="assets/sample-flower-image.png" alt="Flower" class="w-full h-auto mb-4" />
+        <h3 class="text-md font-medium text-gray-800">Lily Blossom</h3>
+        <p class="text-sm font-extrabold text-gray-700 mb-3">20 USD</p>
+        <button class="bg-orange-500 text-white px-4 py-1 text-sm rounded hover:bg-orange-600 w-full cursor-pointer font-normal">
+          ADD TO CART
+        </button>
+      </div>
+
+        <!-- Card 7 -->
+<div class="bg-white rounded-lg overflow-hidden shadow text-center p-4 hidden md:block">
+  <img src="assets/sample-flower-image.png" alt="Flower" class="w-full h-auto mb-4" />
+  <h3 class="text-md font-medium text-gray-800">Lily Blossom</h3>
+  <p class="text-sm font-extrabold text-gray-700 mb-3">20 USD</p>
+  <button class="bg-orange-500 text-white px-4 py-1 text-sm rounded hover:bg-orange-600 w-full cursor-pointer font-normal">
+    ADD TO CART
+  </button>
+</div>
+
+<!-- Card 8-->
+<div class="bg-white rounded-lg overflow-hidden shadow text-center p-4 hidden md:block">
+  <img src="assets/sample-flower-image.png" alt="Flower" class="w-full h-auto mb-4" />
+  <h3 class="text-md font-medium text-gray-800">Lily Blossom</h3>
+  <p class="text-sm font-extrabold text-gray-700 mb-3">20 USD</p>
+  <button class="bg-orange-500 text-white px-4 py-1 text-sm rounded hover:bg-orange-600 w-full cursor-pointer font-normal">
+    ADD TO CART
+  </button>
+</div>
+
+
+      
+    </div>
+  </section>
+
 </body>
 </html>
